@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(https://picsum.photos/1920);
+  background-size: cover;
+  font-family: sans-serif;
+  padding: 5% 10%;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  color: white;
+}
+
+.form {
+  background: rgba(49, 48, 48, 0.432);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5% 10%;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 6px;
+}
+
+.form-group h1 {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.form-label {
+  display: none;
+}
+
+.form-item,
+.button {
+  background: rgba(241, 241, 241, 0.808);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  width: 100%;
+  border: 0;
+  border-radius: 10px;
+  padding: 15px;
+  transition-duration: 0.3s;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+}
+
+.button:hover {
+  background: rgba(39, 63, 199, 0.753);
+  color: white;
+}
