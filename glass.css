@@ -17,7 +17,7 @@ body {
 }
 
 .form {
-  background: rgba(49, 48, 48, 0.432);
+  background: rgba(29, 29, 29, 0.801);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
@@ -28,6 +28,10 @@ body {
   justify-content: center;
   align-items: center;
   padding: 5% 10%;
+}
+
+.form h1{
+  text-transform:uppercase;
 }
 
 .form-group {
@@ -49,7 +53,7 @@ body {
 
 .form-item,
 .button {
-  background: rgba(241, 241, 241, 0.808);
+  background: rgba(206, 226, 243, 0.678);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
